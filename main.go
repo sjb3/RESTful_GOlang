@@ -4,7 +4,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/codegansta/negroni"
+	"github.com/urfave/negroni"
 	"github.com/udemy/common"
 	"github.com/udemy/routers"
 )
