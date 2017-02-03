@@ -1,5 +1,12 @@
 package routers
 
+import (
+    "github.com/gorilla/mux"
+    "github.com/udemy/controllers"
+)
+
+
+
 func SetTaskRouters(router *mux.Router) *mux.Router{
   router.HandleFunc("/tasks", controllers.Tasks.Create).Methods("POST")
   router.HandleFunc("/tasks", controllers.Tasks.Get).Methods("GET")
