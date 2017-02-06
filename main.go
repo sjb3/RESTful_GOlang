@@ -3,10 +3,7 @@ package main
 import (
 	"log"
 	"net/http"
-
 	"github.com/urfave/negroni"
-	"github.com/udemy/common"
-	"github.com/udemy/routers"
 )
 
 func main() {
